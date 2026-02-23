@@ -1,4 +1,41 @@
-surface.CreateFont("DRR_Title", {font = "Roboto", size = 28, weight = 900})
-surface.CreateFont("DRR_Subtitle", {font = "Roboto", size = 20, weight = 700})
-surface.CreateFont("DRR_Body", {font = "Roboto", size = 17, weight = 500})
-surface.CreateFont("DRR_Small", {font = "Roboto", size = 14, weight = 400})
+surface.CreateFont("DRR_Font_Title", {
+    font = "Montserrat",
+    size = 34,
+    weight = 900,
+    extended = true
+})
+
+surface.CreateFont("DRR_Font_Heading", {
+    font = "Montserrat",
+    size = 22,
+    weight = 800,
+    extended = true
+})
+
+surface.CreateFont("DRR_Font_Body", {
+    font = "Montserrat",
+    size = 18,
+    weight = 600,
+    extended = true
+})
+
+surface.CreateFont("DRR_Font_Small", {
+    font = "Montserrat",
+    size = 15,
+    weight = 500,
+    extended = true
+})
+
+surface.CreateFont("DRR_Font_Button", {
+    font = "Montserrat",
+    size = 24,
+    weight = 900,
+    extended = true
+})
+
+surface.CreateFont("DRR_Font_Reward", {
+    font = "Montserrat",
+    size = 30,
+    weight = 900,
+    extended = true
+})
